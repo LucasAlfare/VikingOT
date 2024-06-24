@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<npc name="Ducan" script="data/npc/scripts/carpetman.lua" access="3" lookdir="1">
+	<health now="1000" max="1000"/>
+<look type="151" head="49" body="9" legs="10" feet="0" addons="3"/>
+</npc>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+
+<commands>
+
+-- Gods
+<command cmd="/reload" 		access="5" />			-- Reload configurations ~Bugged~
+<command cmd="/s" 		access="5" />			-- Summon a NPC
+<command cmd="/openserver" 	access="5" />    		-- Open server
+<command cmd="/closeserver"	access="5" />			-- Close server
+<command cmd="/owner" 		access="5" />			-- Set a player to house owner
+<command cmd="/addskill" 	access="5" />			-- Add a decent skill level
+<command cmd="/bless" 		access="5" />			-- Add a blessing
+<command cmd="/makesay"		access="5" />			-- Talks for a player
+
+-- Game Masters
+<command cmd="/m" 		access="4" />			-- Summon a "wild" monster
+<command cmd="/newtype" 	access="4" />			-- Changes looktype
+<command cmd="/summon" 		access="4" />			-- Summon a monster
+-- "/jail"    CHANGE ACCESS AND INFO IN TALKACTIONS SCRIPT
+-- "/unjail"  CHANGE ACCESS AND INFO IN TALKACTIONS SCRIPT
+
+-- Counsellors
+<command cmd="/b" 		access="5" />			-- IP BAN a player
+<command cmd="/ban" 		access="5" />			-- Ban a player
+<command cmd="/t" 		access="3" />			-- Teleport to your temple
+<command cmd="/gethouse" 	access="5" />			-- Info about house of a player
+<command cmd="/bans" 		access="5" />			-- Info about who are banished
+<command cmd="/town" 		access="5" />			-- Go to your town
+<command cmd="/save" 		access="5" />			-- Cast Server save
+<command cmd="/up" 		access="5" />			-- Teleport a floor up
+<command cmd="/bc" 		access="5" />			-- Broadcast to players in colors
+<command cmd="/down" 		access="5" />			-- Teleport a floor down
+<command cmd="/send" 		access="5" />			-- Send a player to a decent position
+<command cmd="/raid" 		access="5" />			-- Execute a raid
+<command cmd="/shutdown" 	access="5" />			-- Shutdown the Server
+<command cmd="/premium" 	access="5" />			-- Give someone a premium account
+<command cmd="/i" 		access="5" />			-- Create a item by ID
+<command cmd="/n" 		access="5" />			-- Create a item by name
+<command cmd="/goto" 		access="3" />			-- Teleport to players, creatures or NPCs
+<command cmd="/a" 		access="5" />			-- Teleport by SQMs
+<command cmd="/kick" 		access="5" />			-- Kick a player
+<command cmd="/pvp" 		access="5" />			-- Change world type
+<command cmd="/c" 		access="5" />			-- Teleport a player
+<command cmd="/addon" 		access="5" />			-- Teleport a player
+<command cmd="/invisible" 	access="3" />			-- Go totally invisible
+<command cmd="/clean" 		access="5" />			-- Clean the map
+
+-- Senior Tutors
+<command cmd="/max" 		access="5" />
+<command cmd="/q" 		access="5" />			-- Check your money
+<command cmd="/z" 		access="5" />			-- Check effects
+<command cmd="/pos" 		access="5" />
+
+-- Tutors --
+<command cmd="/B" 		access="3" />			-- Broacast message
+<command cmd="/info" 		access="1" />			-- Info about a player
+<command cmd="/getonline" 	access="5" />			-- Info about how many players are online
+<command cmd="/check" 		access="5" />			-- Check all Multiclienting players
+
+-- Players
+<command cmd="!sellhouse" 	access="5" />			-- Sell your house to a player
+<command cmd="!buyhouse" 	access="2" />    		-- Buy a house
+<command cmd="!leavehouse" 	access="5" />    		-- Leave a house
+<command cmd="!serverinfo" 	access="5" />    		-- Show server information
+<command cmd="!exp" 		access="5" />			-- Show how many exp you need until the next level
+<command cmd="!mana" 		access="5" />			-- Show how mana you need to spent until the next magic level
+<command cmd="!onlinex" 		access="5" />			-- Shows the amount of online players
+<command cmd="!report" 		access="0" />			-- report a bug to the Hoster
+<command cmd="!uptime" 		access="5" />			-- Shows the server's uptime
+<command cmd="!frags" 		access="0" />			-- Shows how many frags the player has
+-- "/dive" Allows user to enter underwater areas while wearing helmet of the deep
+</commands>

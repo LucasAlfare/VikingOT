@@ -1,0 +1,20 @@
+<raid> 
+
+<announce delay="0" type="22" message="The day came! We will kill you all humans!" />
+<area monster="demon" count="10" posxfrom="662" posyfrom="556" poszfrom="7" posxto="719" posyto="612" poszto="7" />
+
+
+<areaspawn delay="6500" fromx="662" fromy="556" fromz="7" tox="719" toy="612" toz="7">
+<monster name="demon" amount="5" />
+<monster name="demon" amount="5" />
+<monster name="demon" amount="5" />
+<monster name="hand of cursed fate" amount="5" />
+<monster name="explo machine gun" amount="2" />
+<monster name="undead dragon" amount="5" />
+<monster name="undead dragon" amount="5" />
+<monster name="fire elemental" amount="5" />
+<monster name="lord of dead" amount="5" />
+<monster name="lord of dead" amount="5" />
+</areaspawn>
+
+</raid>

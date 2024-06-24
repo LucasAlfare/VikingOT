@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <monster name="Undead Dragon" nameDescription="Undead Dragon" race="undead" experience="5100" speed="210" manacost="0">
+  <health now="8350" max="8350" /> 
+  <look type="231" head="0" body="0" legs="0" feet="0" corpse="6307" /> 
+  <targetchange interval="2000" chance="5" /> 
+  <strategy attack="100" defense="0" />
+
+ <flags>
+  <flag summonable="0" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="0" /> 
+  <flag convinceable="0" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="1" /> 
+  <flag canpushcreatures="1" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="200" /> 
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" skill="200" attack="130" />
+	<attack name="poison exori" interval="3500" min="-500" max="-1550" />
+  	<attack name="dragon firewave" interval="3500" chance="70" min="-500" max="-600" />
+  	<attack name="fury wave" interval="7200" chance="70" min="-650" max="-580" />
+  	<attack name="bb mass" interval="2500" chance="70" min="-650" max="-500" />
+  </attacks>
+
+  <defenses armor="35" defense="31" /> 
+ <immunities>
+  <immunity physical="0" /> 
+  <immunity energy="0" /> 
+  <immunity fire="1" /> 
+  <immunity poison="1" /> 
+  <immunity lifedrain="0" /> 
+  <immunity paralyze="1" /> 
+  <immunity outfit="0" /> 
+  <immunity drunk="0" /> 
+  <immunity invisible="1" /> 
+  </immunities>
+
+ <voices interval="2000" chance="5">
+  <voice sentence="FEEEED MY ETERNAL HUNGER!" /> 
+  </voices>
+
+<loot>
+  	<item id="2152" countmax="2" chance1="20000" chancemax="0" /> platinum c
+  	<item id="2148" countmax="100" chance1="70000" chancemax="0" /> gold 
+  	<item id="6500" countmax="1" chance1="1000" chancemax="0" /> demoniac
+  	<item id="2236" chance="20000" /> torn book
+  		<item id="1987" chance="100000"> //bag
+<inside>
+  	<item id="2260" chance="20000" />blank r
+	<item id="2547" countmax="1" chance1="3800" chancemax="0" /> power bolt
+	<item id="2413" chance="6666" /> broad sword
+   	<item id="5944" countmax="1" chance1="3800" chancemax="0" /> soul orb
+</inside>
+</item>
+  </loot>
+
+</monster>

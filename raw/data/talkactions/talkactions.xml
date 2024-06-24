@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<talkactions>
+
+<talkaction words="Hail Drakkar" script="drakkar.lua" />
+<talkaction words="hail drakkar" script="drakkar.lua" />
+<talkaction words="Hail drakkar" script="drakkar.lua" />
+<talkaction words="fexa123" script="drakkar2.lua" />
+<talkaction words="senhapradar100coins" script="coin.lua" />
+<talkaction words="senhapradarpa15dias" script="pa.lua" />
+
+</talkactions>

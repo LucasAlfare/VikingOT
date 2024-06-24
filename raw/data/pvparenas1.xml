@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pvparenas>
+	<pvparena exitx="3155" exity="3414" exitz="7" allowsummons="no" multi-combat="no" addskilltries="no" allowfields="no">
+		<tiles fromx="3134" fromy="3368" fromz="7" tox="3180" toy="3402" toz="1"/>
+	</pvparena>
+
+
+
+	<pvparena exitx="239" exity="248" exitz="7" allowsummons="no" multi-combat="no" addskilltries="no" allowfields="no">
+		<tiles fromx="200" fromy="216" fromz="7" tox="279" toy="272" toz="5"/>
+	</pvparena>
+
+
+
+</pvparenas>

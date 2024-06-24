@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<monster name="Diabolic Imp" level="200" maglevel="100" experience="1950" pushable="0" armor="50" defense="35" canpushitems="1" staticattack="50" speed="290" summonable="0" convinceable="0" manacost="690">
+	<health now="1950" max="1950"/>
+	<look type="237" head="20" body="30" legs="40" feet="50" corpse="6365" race="2"/>
+	<targetchange interval="2000" chance="50" /> 
+  <strategy attack="100" defense="0" /> 
+ <flags>
+  <flag summonable="1" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="1" /> 
+  <flag convinceable="1" /> 
+  <flag pushable="0" /> 
+  <flag canpushitems="1" /> 
+  <flag canpushcreatures="0" /> 
+  <flag targetdistance="4" /> 
+  <flag runonhealth="0" /> 
+</flags>
+
+
+<attacks>
+<attack name="melee" interval="2000" skill="30" attack="22" /> 
+<attack name="fire" interval="4000" chance="42" range="7" radius="4" target="4" min="-160" max="-260">
+  <attribute key="shootEffect" value="fire" /> 
+  <attribute key="areaEffect" value="firearea" /> 
+  </attack>
+<attack name="fire" interval="2000" chance="25" range="7" radius="2" target="4" min="-290" max="-380">
+  <attribute key="shootEffect" value="fire" /> 
+  <attribute key="areaEffect" value="firearea" /> 
+  </attack>
+</attacks>
+
+<defenses armor="90" defense="111">
+  <defense name="healing" interval="3000" chance="9" min="250" max="420">
+  <attribute key="areaEffect" value="blueshimmer" /> 
+  </defense>
+  <defense name="speed" interval="1000" chance="5" speedchange="900" duration="7000">
+  <attribute key="areaEffect" value="redshimmer" /> 
+  </defense>
+  <defense name="invisible" interval="3000" chance="15" duration="7000">
+  <attribute key="areaEffect" value="blueshimmer"/>
+  </defense>
+  </defenses>
+
+<immunities>
+	<immunity name="fire"/>
+	<immunity name="invisible"/>
+</immunities>
+
+</monster>

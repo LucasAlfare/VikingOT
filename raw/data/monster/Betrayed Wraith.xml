@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <monster name="Betrayed Wraith" nameDescription="Betrayed Wraith" race="undead" experience="3000" speed="270" manacost="0">
+  <health now="4200" max="4200" /> 
+  <look type="233" head="0" body="0" legs="0" feet="0" corpse="6317" /> 
+  <targetchange interval="2000" chance="5" /> 
+  <strategy attack="100" defense="0" /> 
+
+ <flags>
+  <flag summonable="0" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="0" /> 
+  <flag convinceable="0" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="1" /> 
+  <flag canpushcreatures="1" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="0" /> 
+  </flags>
+
+<attacks>
+	  <attack name="melee" interval="2000" skill="80" attack="95" />
+  </attacks>
+
+  <defenses armor="26" defense="32" >
+<defense name="light healing" interval="5500"  min="100" max="120" />
+<defense name="monster invisible" interval="4500" max="-0" />
+</defenses>
+
+<immunities>
+  <immunity physical="0" /> 
+  <immunity energy="1" /> 
+  <immunity fire="1" /> 
+  <immunity poison="1" /> 
+  <immunity lifedrain="0" /> 
+  <immunity paralyze="1" /> 
+  <immunity outfit="1" /> 
+  <immunity drunk="0" /> 
+  <immunity invisible="1" /> 
+  </immunities>
+
+<voices interval="2000" chance="10">
+	<voice sentence="Blubb"/>
+</voices>
+
+ <loot>
+  	<item id="2148" countmax="100" chance1="82000" chancemax="0" /> gold
+  	<item id="2148" countmax="85" chance1="68000" chancemax="0" /> gold
+  	<item id="2145" countmax="2" chance1="2100" chancemax="0" /> diamond
+	<item id="2226" chance="8888"/> fishbone
+	<item id="6558" chance="2600"/> demoniac
+	<item id="1987" chance="100000">
+<inside>
+	<item id="2650" chance="2300"/> double axe
+	<item id="2394" chance="4200"/> morning star
+    </inside>
+  </item>
+  </loot>
+
+</monster>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <monster name="Spectre" nameDescription="a spectre" race="undead" experience="1350" speed="250" manacost="0">
+  <health now="1350" max="1350" /> 
+  <look type="235" head="0" body="0" legs="0" feet="0" corpse="6349" /> 
+  <targetchange interval="2000" chance="5" /> 
+  <strategy attack="100" defense="0" /> 
+ <flags>
+  <flag summonable="0" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="1" /> 
+  <flag convinceable="0" /> 
+  <flag pushable="0" /> 
+  <flag canpushitems="1" /> 
+  <flag staticattack="50" /> 
+  <flag lightlevel="0" /> 
+  <flag lightcolor="0" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="0" /> 
+  </flags>
+
+ <attacks>
+  <attack name="melee" interval="2000" min="0" max="-120" /> 
+  <attack name="mana drain" interval="6500" min="220" max="-300" /> 
+  <attack name="poison spit" interval="5500" min="100" max="-150" /> 
+  <attack name="sonar" interval="5500" chance="100" min="230" max="-350" /> 
+  </attacks>
+
+  <defenses armor="44" defense="42" /> 
+ <immunities>
+  <immunity physical="1" /> 
+  <immunity energy="0" /> 
+  <immunity fire="0" /> 
+  <immunity poison="1" /> 
+  <immunity lifedrain="0" /> 
+  <immunity paralyze="1" /> 
+  <immunity outfit="0" /> 
+  <immunity drunk="0" /> 
+  <immunity invisible="1" /> 
+  </immunities>
+ <voices interval="2000" chance="5">
+  <voice sentence="Revenge ... is so ... sweet." /> 
+  <voice sentence="Life...force! Feed me your... lifeforce" /> 
+  </voices>
+
+ <loot>
+  <item id="2148" countmax="70" chance1="100000" chancemax="0" /> 
+  <item id="5909" countmax="1" chance1="10000" chancemax="0" /> 
+  <item id="2260" chance="5000" /> 
+  <item id="2260" chance="5000" /> 
+  <item id="2134" chance="4000" /> 
+  <item id="2642" chance="11818" /> 
+  <item id="2071" chance="12588" /> 
+ <item id="1987" chance="100000">
+ <inside>
+  <item id="6500" countmax="1" chance1="10000" chancemax="0" /> 
+  <item id="2189" chance="3500" />
+  <item id="5944" countmax="1" chance1="6200" chancemax="0" /> soul orb
+     <item id="6299" chance="1000" /> 
+  <item id="2136" chance="3333" /> 
+  </inside>
+  </item>
+  </loot>
+  </monster>

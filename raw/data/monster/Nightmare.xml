@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <monster name="Nightmare" nameDescription="Nightmare" race="undead" experience="2150" speed="180" manacost="0">
+  <health now="2700" max="2700" /> 
+  <look type="245" head="0" body="0" legs="0" feet="0" corpse="6341" /> 
+  <targetchange interval="2000" chance="5" /> 
+  <strategy attack="100" defense="0" /> 
+
+ <flags>
+  <flag summonable="0" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="0" /> 
+  <flag convinceable="0" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="1" /> 
+  <flag canpushcreatures="1" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="0" /> 
+  </flags>
+
+ <attacks>
+  <attack name="scorpion bite" interval="2000" min="0" max="-200" /> 
+  <attack name="drunk" interval="8200" min="0" max="0" /> 
+  <attack name="scarab poison" interval="5500" min="-200" max="-280" /> 
+  <attack name="nightmare" interval="6300" min="-200" max="-320" /> 
+  </attacks>
+
+ <defenses armor="44" defense="42">
+  <defense name="haste" interval="5000" chance="100" /> 
+  <defense name="light healing" interval="2000" chance="100" min="50" max="70" /> 
+  </defenses>
+
+ <immunities>
+  <immunity physical="0" /> 
+  <immunity energy="0" /> 
+  <immunity fire="0" /> 
+  <immunity poison="0" /> 
+  <immunity lifedrain="0" /> 
+  <immunity paralyze="0" /> 
+  <immunity outfit="0" /> 
+  <immunity drunk="0" /> 
+  <immunity invisible="1" /> 
+  </immunities>
+
+ <voices interval="2000" chance="5">
+  <voice sentence="Close your eyes... I want to show you something." />
+  <voice sentence="I will haunt you forever!." /> 
+  <voice sentence="I will make you scream." /> 
+  </voices>
+
+ <loot>
+  <item id="2148" countmax="70" chance1="90000" chancemax="0" /> gold
+    <item id="2666" countmax="1" chance1="50000" chancemax="0" /> meat
+  <item id="2671" countmax="1" chance1="40000" chancemax="0" /> ham
+  <item id="6529" countmax="5" chance1="6000" chancemax="0" />  infernal bolts
+  <item id="2237" chance="5000" /> dirty cape
+  <item id="2387" chance="9000" /> double axe
+  <item id="2457" chance="11018" /> steel h
+  <item id="6558" chance="3500" /> concetred demonic
+  <item id="6558" chance="3500" /> concetred demonic
+  <item id="5669" chance="5588" /> mysterious vooodoo
+ <item id="1987" chance="100000">
+ <inside>
+  <item id="6500" countmax="1" chance1="6200" chancemax="0" /> demoniac e
+  <item id="2230" chance="5000" /> bone
+  <item id="2532" chance="4000" /> ancient s
+     <item id="6299" chance="800" /> death ring
+  <item id="2477" chance="2600" /> knight legs
+  <item id="2195" chance="3200" /> boh
+<item id="5944" chance="2300"/> soul orb
+  </inside>
+  </item>
+  </loot>
+
+
+</monster>

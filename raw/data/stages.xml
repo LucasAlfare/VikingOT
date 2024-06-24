@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<stages>
+<stage minlevel="0" maxlevel="5000" multiplier="20"/>
+
+</stages>

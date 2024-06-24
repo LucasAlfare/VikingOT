@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Headsplitter" nameDescription="headsplitter" race="blood" experience="360" speed="180" manacost="0">
+  <health now="400" max="400"/>
+  <look type="253" head="90" body="30" legs="40" feet="50" corpse="3128"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-0" max="-150"/>
+    <attack name="bolt" interval="2000" min="-0" max="-160"/>
+  </attacks>
+  <defenses armor="19" defense="20"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="I will regain my honor with your blood!"/>
+    <voice sentence="Surrender is not option!"/>
+    <voice sentence="Its you or me!"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="30" chance1="100000" chancemax="0"/> --Gold Coins
+    <item id="2050" chance="11111"/> --Torch
+    <item id="7449" chance="888"/> --Crystal Sword
+    <item id="2229" countmax="1" chance1="20000" chancemax="0"/> --Skull
+    <item id="2460" chance="6666"/> --Brass Helmet
+    <item id="7457" chance="1222"/> --Fur Boots
+    <item id="5913" countmax="1" chance1="2555" chancemax="0"/> --Brown Piece of Cloth
+    <item id="1987" chance="100000"> --Bag
+        <inside>
+           <item id="2473" chance="5535"/> --Viking Helmet
+           <item id="2403" chance="8888"/> --Knife
+           <item id="7461" chance="1999"/> --Krimhorn Helmet
+        </inside>
+     </item>
+  </loot>
+</monster>

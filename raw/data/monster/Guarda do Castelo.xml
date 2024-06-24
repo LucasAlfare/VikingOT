@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Guarda do Castelo" nameDescription="a guarda do castelo" race="blood" experience="1200" speed="280" manacost="0">
+  <health now="2000" max="2000"/>
+  <look type="75" head="75" body="75" legs="75" feet="75" corpse="3058"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="80" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="200" attack="100"/>
+    <attack name="physical" interval="1000" chance="25" range="7" min="-75" max="-125">
+      <attribute key="shootEffect" value="arrow"/>
+    </attack>
+  </attacks>
+  <defenses armor="80" defense="80">
+    <defense name="healing" interval="10000" chance="50" min="300" max="550">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Let's have a fight!"/>
+    <voice sentence="Welcome to my battleground."/>
+    <voice sentence="I gonna protect this castle till death"/>
+    <voice sentence="I will sing a tune at your grave."/>
+  </voices>
+  <loot capacity="800">
+      </loot>
+</monster>

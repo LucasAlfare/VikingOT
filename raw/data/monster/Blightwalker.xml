@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<monster name="Blightwalker" nameDescription="Blightwalker" race="blood" experience="3350" speed="300">
+  <health now="8900" max="8900" /> 
+  <look type="246" head="0" body="0" legs="0" feet="0" corpse="6355" /> 
+  <targetchange interval="2000" chance="5" /> 
+  <strategy attack="100" defense="0" /> 
+
+ <flags>
+  <flag summonable="0" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="0" /> 
+  <flag convinceable="0" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="1" /> 
+  <flag canpushcreatures="1" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="0" /> 
+  </flags>
+
+<attacks>
+	  <attack name="melee" interval="2000" skill="55" attack="75" />
+	  <attack name="blight yellow" interval="5000" chanche="80" min="-1" max="-200" />
+  	<attack name="blight poison" interval="5000" chanche="80" min="-1" max="-240" />
+	<attack name="blight mass" interval="8200" chanche="80" min="-65" max="-80" />
+	<attack name="ancient paralyze" interval="4200" chanche="80" min="-1" max="-1" />
+	<attack name="scarab poison" interval="3600" chanche="80" min="-200" max="-380" />
+  </attacks>
+
+  <defenses armor="55" defense="45" />
+<immunities>
+  <immunity physical="0" /> 
+  <immunity energy="0" /> 
+  <immunity fire="1" /> 
+  <immunity poison="1" /> 
+  <immunity lifedrain="0" /> 
+  <immunity paralyze="1" /> 
+  <immunity outfit="0" /> 
+  <immunity drunk="0" /> 
+  <immunity invisible="1" /> 
+  </immunities>
+
+<voices interval="2000" chance="10">
+	<voice sentence="I can see you decaying!"/>
+</voices>
+
+<loot>
+ 	<item id="2148" countmax="90" chance1="89000" chancemax="0"/> gold
+	<item id="2148" countmax="60" chance1="52000" chancemax="0"/> gold
+  	<item id="2230" chance="8888"/> bone
+ 	<item id="2694" countmax="3" chance1="8200" chancemax="0"/> wheat
+ 	<item id="2260" chance="7100"/> blank rune
+ 	<item id="1987" chance="100000">
+ 	<inside>
+ 	<item id="6500" countmax="1" chance1="6500" chancemax="0"/> demoniac essencie
+ 	<item id="2388" chance="16000"/> hatchet
+	<item id="2436" chance="2000"/> skull staff
+ 	<item id="2152" countmax="3" chance1="6200" chancemax="0"/> platinum coin
+ 	<item id="2649" chance="33500"/> leather l
+	<item id="5944" countmax="1" chance1="3200" chancemax="0"/> soul orb
+ 	<item id="2050" chance="56000"/> torch
+ 	</inside>
+ 	</item>
+</loot>
+
+</monster>

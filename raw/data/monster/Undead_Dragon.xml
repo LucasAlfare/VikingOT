@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<monster name="Undead Dragon" level="200" maglevel="100" experience="5100" pushable="0" armor="250" defense="35" canpushitems="1" staticattack="50" speed="290" summonable="0" convinceable="0" manacost="690">
+	<health now="8350" max="8350"/>
+	<look type="231" head="20" body="30" legs="40" feet="50" corpse="6307" race="2"/>
+	<combat targetdistance="1" runonhealth="0"/>
+	<targetchange speed="2000" chance="5"/>
+
+<attacks>
+  <attack name="melee" speed="2000" min="-145" max="-345"/>
+  <attack name="hydra poisonwave" speed="3000" min="-220" max="-340" chance="45"/>
+<attack name="Smokewave" speed="3000" min="-80" max="-120" chance="25"/>
+<attack name="Drainwave" speed="4000" min="-320" max="-440" chance="35"/>
+<attack name="bloodball" speed="5000" min="-240" max="-340" chance="45"/>
+
+</attacks>
+
+<immunities>
+	<immunity name="fire"/>
+	<immunity name="poison"/>
+	<immunity name="invisible"/>
+<immunity drunk="1" /> 
+</immunities>
+
+</monster>

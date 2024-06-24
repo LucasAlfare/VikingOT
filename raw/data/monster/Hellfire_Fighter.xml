@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<monster name="Hellfire Fighter" level="200" maglevel="100" experience="2200" pushable="0" armor="50" defense="35" canpushitems="1" staticattack="50" speed="290" summonable="0" convinceable="0" manacost="690">
+	<health now="3800" max="3800"/>
+	<look type="243" head="20" body="30" legs="40" feet="50" corpse="6325" race="2"/>
+	<combat targetdistance="1" runonhealth="0"/>
+	<targetchange speed="2000" chance="5"/>
+	<strategy attack="60" defense="30" /> 
+
+<attacks>
+  <attack name="melee" speed="2000" min="-100" max="-300"/>
+  <attack name="hellfire_bomb" speed="2500" min="-100" max="-150" chance="95"/>
+  <attack name="hellfire_exori" speed="7000" min="-100" max="-250" chance="40"/>
+  <attack name="hellfire beam" speed="4000" min="-900" max="-1400" chance="30"/>
+</attacks>
+
+<immunities>
+	<immunity name="fire"/>
+	<immunity name="poison"/>
+	<immunity name="invisible"/>
+</immunities>
+
+</monster>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <monster name="Hellhound" nameDescription="Hellhound" race="venom" experience="4350" speed="220" manacost="0">
+  <health now="7500" max="7500" /> 
+  <look type="240" head="0" body="0" legs="0" feet="0" corpse="6332" /> 
+  <targetchange interval="2000" chance="5" /> 
+  <strategy attack="100" defense="0" /> 
+
+ <flags>
+  <flag summonable="0" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="0" /> 
+  <flag convinceable="0" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="1" /> 
+  <flag canpushcreatures="1" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="200" /> 
+  </flags>
+
+ <attacks>
+	    <attack name="melee" interval="2000" skill="150" attack="150" /> 
+  	  <attack name="hydra poisonwave" interval="3400" min="-500" max="-650" />
+	<attack name="Sudden Death" interval="5200"  min="-200" max="-300" />
+	<attack name="Fire Bomb" interval="3000"  min="-200" max="-300" />
+	<attack name="dragon firewave" interval="8500"  min="-250" max="-400" />
+  </attacks>
+
+<defenses armor="26" defense="32" /> 
+ <immunities>
+  <immunity physical="0" /> 
+  <immunity energy="1" /> 
+  <immunity fire="1" /> 
+  <immunity poison="1" /> 
+  <immunity lifedrain="0" /> 
+  <immunity paralyze="1" /> 
+  <immunity outfit="1" /> 
+  <immunity drunk="1" /> 
+  <immunity invisible="0" /> 
+  </immunities>
+
+ <voices interval="2000" chance="5">
+  <voice sentence="GROOOOWL!" />
+  <voice sentence="GRRRRR" /> 
+  </voices>
+
+ <loot>
+  	<item id="2148" countmax="100" chance1="83000" chancemax="0" />  gold
+  	<item id="2671" countmax="5" chance1="27000" chancemax="0" /> ham
+  	<item id="2410" countmax="3" chance1="9000" chancemax="0" /> trowing
+  	<item id="2231" chance="13500" /> big bone
+  	<item id="6558" chance="4200" /> concetrade
+  	<item id="2230" chance="14000" /> bone
+	 <item id="1987" chance="100000">
+ <inside>
+  	<item id="2148" countmax="40" chance1="92000" chancemax="0" /> gold
+  	<item id="6558" chance="1500" /> concetrade
+  	<item id="6500" countmax="1" chance1="3200" chancemax="0" /> 
+ 	<item id="5944" chance="2300"/> soul orb
+  	<item id="2430" chance="2600" /> knight axe
+	<item id="2383" chance="1900"/> spike sword
+	<item id="2144" countmax="3" chance1="2300" chancemax="0"/> black pearl
+  </inside>
+  </item>
+  </loot>
+
+</monster>

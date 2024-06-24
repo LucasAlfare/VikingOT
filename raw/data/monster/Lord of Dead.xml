@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lord of Dead" nameDescription="a necromancer" race="blood" experience="15000" speed="188" manacost="0">
+  <health now="20000" max="20000"/>
+  <look type="9" head="0" body="0" legs="0" feet="0" corpse="3058"/>
+  <targetchange interval="2000" chance="50"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="4"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="150" attack="100"/>
+     <attack name="lifedrain" interval="5000" chance="30" radius="8" target="0" min="-1500" max="-3000">
+      <attribute key="areaEffect" value="mortarea"/>
+    </attack>
+  <attack name="Sudden Death" interval="2000" min="-400" max="-1000"/>
+   <attack name="fire" interval="3000" chance="60" range="7" radius="4" target="1" min="-650" max="-1550">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="mortarea"/>
+    </attack>
+   </attacks>
+  <defenses armor="100" defense="60">
+    <defense name="healing" interval="5000" chance="80" min="300" max="1000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Your corpse will be mine!"/>
+    <voice sentence="Taste the sweetness of death!"/>
+  </voices>
+  <loot capacity="300">
+    <item id="2195" countmax="1" chance="200"/>
+    <item id="2423" countmax="1" chance="1000"/>
+    <item id="2148" countmax="90" chance="30000"/>
+    <item id="2796" countmax="1" chance="1500"/>
+    <item id="2483" countmax="1" chance="10000"/>
+    <item id="2406" countmax="1" chance="15000"/>
+    <item id="2436" countmax="1" chance="100"/>
+    <item id="5741" countmax="1" chance="100"/>
+ </loot>
+</monster>

@@ -1,0 +1,1 @@
+Account data is located in your SQL database.

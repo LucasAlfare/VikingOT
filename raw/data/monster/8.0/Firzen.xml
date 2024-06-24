@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Firzen" nameDescription="Firzen" race="undead" experience="1850000" speed="395" manacost="0">
+  <health now="850000" max="850000"/>
+  <look type="261" head="20" body="30" legs="40" feet="50" corpse="7282"/>
+  <targetchange interval="2000" chance="50"/>
+  <strategy attack="500" defense="500"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-1000" max="-3500"/>
+    <attack name="ice golem energy beam" interval="3500" chance="50" min="-900" max="-1600"/>
+    <attack name="berserk" interval="4000" chance="100" min="-1250" max="-1500"/>
+    <attack name="large rock" interval="2000" chance="100" min="-1750" max="-1950"/>
+   <attack name="Firzen1" interval="6000" chance="60" min="-6000" max="-8000"/>
+        <attack name="Firzen2" interval="3000" chance="60" min="-6000" max="-8000"/>
+
+  </attacks>
+  <defenses armor="60" defense="85">
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="Chrr."/>
+     <voice sentence="Crrrrk"/>
+      <voice sentence="Gnarr."/>
+  </voices>
+  <loot>
+  <item id="4854" countmax="1" chance="99999"/>
+ <item id="4854" countmax="1" chance="99999"/>
+ <item id="4854" countmax="1" chance="99999"/>
+ <item id="4854" countmax="1" chance="99999"/>
+ <item id="4854" countmax="1" chance="99999"/>
+ <item id="4854" countmax="1" chance="99999"/>
+
+  </loot>
+</monster>

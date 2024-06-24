@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <monster name="Serpent Spawn" nameDescription="Serpent Spawn" race="blood" experience="2000" speed="234" manacost="0">
+  <health now="3000" max="3000" /> 
+  <look type="220" head="0" body="0" legs="0" feet="0" corpse="4323" /> 
+  <targetchange interval="2000" chance="25" /> 
+  <strategy attack="70" defense="30" />
+
+ <flags>
+  <flag summonable="0" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="0" /> 
+  <flag convinceable="0" /> 
+  <flag pushable="0" /> 
+  <flag canpushitems="1" /> 
+  <flag canpushcreatures="1" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="275" /> 
+  </flags>
+
+ <attacks>
+  <attack name="melee" interval="2000" skill="82" attack="62" /> 
+ <attack name="poison" interval="200" chance="100" range="7" min="-250" max="-450">
+  <attribute key="shootEffect" value="poison" /> 
+  <attribute key="areaEffect" value="greenspark" /> 
+  </attack>
+ <attack name="hydra paralyze" interval="4600" chance="65" min="-1" max="-1" />
+ <attack name="lifedrain" interval="8100" chance="72" length="8" spread="0" min="-350" max="-400">
+  <attribute key="areaEffect" value="rednote" /> 
+  </attack>
+ <attack name="poison" interval="1200" chance="60" length="8" spread="3" min="-430" max="-500">
+  <attribute key="areaEffect" value="poison" /> 
+  </attack>
+  </attacks>
+
+ <defenses armor="38" defense="40">
+ <defense name="healing" interval="1000" chance="17" min="200" max="260">
+  <attribute key="areaEffect" value="blueshimmer" /> 
+  </defense>
+  </defenses>
+
+ <immunities>
+  <immunity physical="0" /> 
+  <immunity energy="0" /> 
+  <immunity fire="0" /> 
+  <immunity poison="1" /> 
+  <immunity lifedrain="1" /> 
+  <immunity paralyze="1" /> 
+  <immunity outfit="1" /> 
+  <immunity drunk="1" /> 
+  <immunity invisible="1" /> 
+  </immunities>
+
+ <voices interval="5000" chance="10">
+  <voice sentence="Ssssolus for the one" /> 
+  <voice sentence="HISSSS" yell="1" /> 
+  <voice sentence="Tsssse one will risssse again" /> 
+  <voice sentence="I bring you deathhhh, mortalssss" /> 
+  </voices>
+
+ <loot capacity="1200">
+    	<item id="2148" countmax="96" chance1="73000" chancemax="0"/> gold
+    	<item id="2148" countmax="90" chance1="26000" chancemax="0"/> gold
+                     <item id="2492" chance="700"/> dsm
+                     <item id="2498" chance="4500"/> royal h
+                      <item id="2033" chance="3210"/> golden mug
+    	<item id="2146" countmax="1" chance1="10000" chancemax="0"/> saphirre
+                    <item id="2796" countmax="1" chance1="7777" chancemax="0"/> green mushroom
+                     <item id="2182" chance="6100"/> snakebite rod
+                      <item id="2195" chance="1300"/> boh
+     	<item id="1987" chance="1000000">
+    	<inside>
+        	<item id="3971" chance="2850"/> chammer tiara
+  	<item id="2476" chance="3100"/> k armor
+                     <item id="2167" chance="1600"/>//energy ring
+                    <item id="2528" chance="3500"/> //tower s
+                   <item id="2392" chance="800"/> //fs
+                   <item id="2168" chance="4100"/> life ring
+                     <item id="2177" chance="800"/> life crystal
+                      <item id="2155" chance="1200"/> green gem
+                      <item id="2479" chance="3500"/> strange helmet
+  	<item id="2547" countmax="4" chance1="5800" chancemax="0"/> power bolt
+      	</inside>
+    	</item>
+</loot>
+  </monster>

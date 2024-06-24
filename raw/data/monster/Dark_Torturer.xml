@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<monster name="Dark Torturer" level="200" maglevel="100" experience="3500" pushable="0" armor="50" defense="35" canpushitems="1" staticattack="50" speed="290" summonable="0" convinceable="0" manacost="690">
+	<health now="7350" max="7350"/> 
+	<look type="234" head="20" body="30" legs="40" feet="50" corpse="6328" race="2"/>
+	<combat targetdistance="1" runonhealth="0"/>
+	<targetchange speed="2000" chance="5"/>
+
+<attacks>
+  <attack name="melee" speed="2000" min="-300" max="-500"/>
+  <attack name="throwing knife" speed="5000" min="-180" max="-320" chance="40"/>
+  <attack name="Dark Music" speed="3000" min="-1" max="-1" chance="30"/>
+</attacks>
+
+<immunities>
+	<immunity name="fire"/>
+	<immunity name="energy"/>
+	<immunity name="poison"/>
+	<immunity name="invisible"/>
+</immunities>
+
+</monster>

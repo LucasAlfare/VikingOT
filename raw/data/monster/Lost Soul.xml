@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <monster name="Lost Soul" nameDescription="Lost Soul" race="undead" experience="2500" speed="170" manacost="0">
+  <health now="8500" max="8500" /> 
+  <look type="232" head="0" body="0" legs="0" feet="0" corpse="6311" /> 
+  <targetchange interval="2000" chance="5" /> 
+  <strategy attack="100" defense="0" /> 
+
+ <flags>
+  <flag summonable="0" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="0" /> 
+  <flag convinceable="0" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="1" /> 
+  <flag canpushcreatures="1" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="200" /> 
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" skill="50" attack="45" />
+  	<attack name="ultimate poison" interval="4500" min="0" max="-20" />
+  	<attack name="bb beam" interval="7000" min="200" max="-230" />	
+  </attacks>
+
+ <voices interval="2000" chance="5">
+  <voice sentence="Mouuuurn meeee!" /> 
+  <voice sentence="Forgive Meeeee!" /> 
+  </voices>
+
+ <loot>
+  	<item id="2148" countmax="90" chance1="80000" chancemax="0" /> gold
+    	<item id="2227" chance="4000" /> rotten meat
+	<item id="2260" chance="5818" /> blank r
+  	<item id="5801" chance="800" /> key ring
+  	<item id="2230" chance="5588" /> bone
+ 	<item id="1987" chance="100000">
+ <inside>
+  	<item id="2480" chance="7500" /> legion h
+  	<item id="2050" chance="5000" /> torch	
+  	<item id="2463" chance="3200" /> plate a
+  	<item id="2483" chance="8888" /> scale a
+  	<item id="6526" chance="2600" /> skeleton d
+	<item id="2197" chance="1500" /> ssa
+  </inside>
+  </item>
+  </loot>
+
+</monster>

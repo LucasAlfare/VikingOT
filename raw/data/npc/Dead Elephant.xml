@@ -1,0 +1,8 @@
+<npc name="Dead Elephant" script="data/npc/scripts/elephant.lua" autowalk="25" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+        <look type="211" head="114" body="46" legs="43" feet="76" addons="1" corpse="2212"/>
+	<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|. Welcome to the School of Magic! Do you want something?" />
+		
+	</parameters>
+</npc>

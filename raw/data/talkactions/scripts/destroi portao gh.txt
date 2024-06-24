@@ -1,0 +1,6 @@
+onUse(cid, item, frompos, item2, topos)
+if getPlayerAccess(cid) ~= 0 then
+doRemoveItem(item2.uid,100)
+return 1
+end
+end

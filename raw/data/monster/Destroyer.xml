@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<monster name="Destroyer" nameDescription="Destroyer" race="undead" experience="2000" speed="290">
+  <health now="3700" max="3700" /> 
+  <look type="236" head="20" body="30" legs="40" feet="50" corpse="6321" /> 
+  <targetchange interval="2000" chance="5" /> 
+  <strategy attack="100" defense="0" /> 
+
+ <flags>
+  <flag summonable="0" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="0" /> 
+  <flag convinceable="0" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="1" /> 
+  <flag canpushcreatures="1" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="200" /> 
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" skill="70" attack="70" />
+	<attack name="large rock" interval="5000" min="-1" max="-230" />
+</attacks>
+
+  <defenses armor="30" defense="21" />
+<immunities>
+  <immunity physical="0" /> 
+  <immunity energy="1" /> 
+  <immunity fire="1" /> 
+  <immunity poison="1" /> 
+  <immunity lifedrain="0" /> 
+  <immunity paralyze="1" /> 
+  <immunity outfit="1" /> 
+  <immunity drunk="0" /> 
+  <immunity invisible="1" /> 
+  </immunities>
+
+<voices interval="2000" chance="5">
+  	<voice sentence="Destructiooooon!" />
+	<voice sentence="It's a good day to destroy!" /> 
+   </voices>
+
+<loot>
+  	<item id="2148" countmax="70" chance1="85000" chancemax="0" /> gold
+  	<item id="2148" countmax="20" chance1="86000" chancemax="0" /> gold
+	<item id="2148" countmax="40" chance1="23000" chancemax="0" /> gold
+	<item id="2148" countmax="50" chance1="15000" chancemax="0" /> gold
+	<item id="2645" chance="1200"/> steel boots
+	<item id="2463" chance="5300"/> plate armor
+	<item id="1987" chance="100000">
+	<inside>
+	<item id="2434" chance="2100"/> dragon hammer
+	<item id="2149" countmax="2" chance1="3200" chancemax="0" /> amyestish
+	<item id="2416" chance="8200"/> crowbar
+	<item id="2489" chance="5100"/> dark armor
+	<item id="2393" chance="1500"/> giant sword
+	</inside>
+  </item>
+  </loot>
+
+</monster>

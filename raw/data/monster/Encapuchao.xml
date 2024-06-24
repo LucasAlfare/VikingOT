@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<monster name="Betrayed Wraith" level="200" maglevel="100" experience="3000" pushable="0" armor="50" defense="35" canpushitems="1" staticattack="50" speed="290" summonable="0" convinceable="0" manacost="690">
+	<health now="390" max="390" 
+	<look type="129" head="96" body="115" legs="112" feet="38" addons="0" corpse="3058" race="2"/>
+	<combat targetdistance="1" runonhealth="0"/>
+	<targetchange speed="2000" chance="5"/>
+
+<attacks>
+  <attack name="melee" speed="2000" min="-15" max="-50"/>
+</attacks>
+
+<immunities>
+		<immunity name="invisible"/>
+</immunities>
+
+</monster>

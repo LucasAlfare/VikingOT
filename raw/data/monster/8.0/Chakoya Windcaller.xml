@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<monster name="Chakoya Windcaller" race="venom" experience="7000" speed="160" manacost="0">
+  <health now="4000" max="4000"/>
+  <look type="249" head="0" body="0" legs="0" feet="0" corpse="7321"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="6"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" min="-350" max="-450"/>
+    <attack name="chakoya ue" interval="2000" chance="60" min="-1000" max="-2000"/>
+  	
+  </attacks>
+
+  <defenses armor="70" defense="70">
+  </defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  <loot>
+    <item id="2148" countmax="10" chance="8000"/>
+	<item id="2466" countmax="1" chance="2000"/>
+	<item id="2195" countmax="1" chance="800"/>
+	</loot>
+</monster>

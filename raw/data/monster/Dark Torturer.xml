@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<monster name="Dark Torturer" nameDescription="Dark Torturer" race="blood" experience="3500" speed="220">
+  <health now="7350" max="7350" /> 
+  <look type="234" head="20" body="30" legs="40" feet="50" corpse="6328" /> 
+  <targetchange interval="2000" chance="5" /> 
+  <strategy attack="100" defense="0" /> 
+
+ <flags>
+  <flag summonable="0" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="0" /> 
+  <flag convinceable="0" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="1" /> 
+  <flag canpushcreatures="1" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="200" /> 
+  </flags>
+
+<attacks>
+  <attack name="melee" interval="2000" skill="70" attack="65" />
+  <attack name="throwing knife" interval="7000" min="-1" max="-500" />
+  <attack name="sound wave" interval="9000" min="-0" max="-0" />
+  </attacks>
+
+  <defenses armor="55" defense="45" /> 
+<immunities>
+  <immunity physical="0" /> 
+  <immunity energy="1" /> 
+  <immunity fire="1" /> 
+  <immunity poison="1" /> 
+  <immunity lifedrain="0" /> 
+  <immunity paralyze="0" /> 
+  <immunity outfit="1" /> 
+  <immunity drunk="0" /> 
+  <immunity invisible="1" /> 
+  </immunities>
+
+<loot>
+  <item id="2148" countmax="100" chance1="85000" chancemax="0" /> gold
+  <item id="2148" countmax="65" chance1="62000" chancemax="0" /> gold
+  <item id="2671" countmax="3" chance1="26000" chancemax="0" /> ham
+  <item id="5944" countmax="1" chance1="5200" chancemax="0" /> soul orb
+<item id="2470" chance="4200"/> golden l
+<item id="6558" chance="2857"/> demoniac
+<item id="2557" chance="6200"/> hammer
+<item id="2558" chance="12000"/> saw
+<item id="1987" chance="100000">
+<inside>
+    </inside>
+<item id="2513" chance="4600"/> battle hammer
+  </item>
+  </loot>
+
+</monster>
